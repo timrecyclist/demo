@@ -90,7 +90,10 @@ Once that's done:
 `pip install --editable .`    
     
 This will allow you to install your current directory as a package so that you can continue to work on it locally.   
-Make changes, test, etc.
+Make changes, test, etc.   
+   
+   
+
 
     
 When you are all finished push your changes to the repo. Anyone who would like to use your library can
@@ -100,5 +103,17 @@ or
 `pip install "git+ssh://<path to repo, but replace any : with />"`    
 
 
-Don't forget to use [semantic versioning](https://semver.org/) to be able to mark different versions.
+Don't forget to use [semantic versioning](https://semver.org/) to be able to mark different versions.   
+    
+     
+### Potential Next Steps    
+This is all unknown to me, but it's the general direction I'd head in from here:     
+Things I think will help automate running your tests before accepting a pull request to main:
+[Adding Shields to the repo for Testing/Code Coverage](https://shields.io/category/license)    
+[Jenkins](https://www.jenkins.io/)    
+[Travis CI](https://www.travis-ci.com/)       
+   
+Is this relevant to us? Don't know. We're not really building applications, but I think this can ensure our code runs the same on all machines.
+[Docker](https://www.docker.com/)
+
 
