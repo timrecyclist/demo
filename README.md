@@ -107,8 +107,8 @@ Don't forget to use [semantic versioning](https://semver.org/) to be able to mar
     
      
 ### Potential Next Steps    
-This is all unknown to me, but it's the general direction I'd head in from here:     
-Things I think will help automate running your tests before accepting a pull request to main:
+This is all unknown to me, but it's the general direction I'd head in from here.   
+Goal - it would be great to automate testing for pull requests. I think these resources might help us do that:      
 [Adding Shields to the repo for Testing/Code Coverage](https://shields.io/category/license)    
 [Jenkins](https://www.jenkins.io/)    
 [Travis CI](https://www.travis-ci.com/)       
