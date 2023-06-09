@@ -17,7 +17,9 @@ Everything below says pip but really uses pip3.
 ## Helpful links
 
 Virtual Environments      
-[venv (default)](https://docs.python.org/3/library/venv.html)    
+[Virtual Environments Primer](https://realpython.com/python-virtual-environments-a-primer/)    
+[Virtual Environments with pyenv](https://realpython.com/intro-to-pyenv/)    
+[venv (default)](https://docs.python.org/3/library/venv.html)      
 [Pyenv (recommended)](https://realpython.com/intro-to-pyenv/) 
 
 Installing Library from GitHub    
