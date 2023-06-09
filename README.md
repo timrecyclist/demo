@@ -7,8 +7,8 @@ install pandas for example to use python 3 stuff. Alternatively, you can alias
 your .bashrc to automatically add the 3. Add this to .bashrc in your home
 directory:
 
-alias python=python3
-alias pip=pip3
+`alias python=python3`
+`alias pip=pip3`
 
 Everything below says pip but really uses pip3.
 
@@ -32,10 +32,11 @@ Type Checking (optional, but should probably do)
 
 [Setuptools Quickstart](https://setuptools.pypa.io/en/latest/userguide/quickstart.html)
 TL;DR
-pip install --upgrade setuptools
-pip install --upgrade build
+`pip install --upgrade setuptools`
+`pip install --upgrade build`
 
 Create a pyproject.toml with the following
+`
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
@@ -47,7 +48,7 @@ dependencies = [
     "pandas",
     "requests"
 ]
-
+`
 Follow the directory structure listed in Setuptools Quickstart or in this demo
 
 mypackage
@@ -71,12 +72,14 @@ mypackage
     | - testing stuff
 
 If using this setup, add the following to your pyproject.toml
+`
 [tool.setuptools.packages.find]
 where = ["src"]
+`
 
 
 You can then use 
-pip install --editable .
+`pip install --editable .`
 in development to avoid having to push and pip install again after making changes.
 
 
@@ -85,30 +88,30 @@ Create your virtual environment. Using pyenv this looks like
 pyenv virtualenv <name of virtual environment>
 
 Activate it
-pyenv activate <name of virtual environment>
+`pyenv activate <name of virtual environment>`
 
 Upgrade pip, setuptools, and build
-pip install --upgrade pip
-pip install --upgrade setuptools
-pip install --upgrade build
+`pip install --upgrade pip`
+`pip install --upgrade setuptools`
+`pip install --upgrade build`
 
 Make your module and save it in the directory structure above. Then create your
 pyproject.toml file.
 
 You can then continue to develop your package as you'd like. When finished,
 make a requirements.txt via:
-pip freeze > requirements.txt
+`pip freeze > requirements.txt`
 
 Once that's done:
-pip install --editable .
+`pip install --editable .`
 
 
 Then push your changes to the repo. Anyone who would like to use your library can
 then pip install it from a private repo they have access to via
 
-pip install "git+https://<path to repo>"
+`pip install "git+https://<path to repo>"`
 or
-pip install "git+ssh://<path to repo, but replace any : with />"
+`pip install "git+ssh://<path to repo, but replace any : with />"`
 
-Don't forget to use semantic versioning
+Don't forget to use [semantic versioning](https://semver.org/)
 
