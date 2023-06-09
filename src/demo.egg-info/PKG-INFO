@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: demo
+Version: 0.0.1
+Summary: Module to demonstrate building a package in Python
+Author-email: Tim Christy <tchristy@routeware.com>
+Requires-Python: >=3.7
