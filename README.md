@@ -91,6 +91,9 @@ Once that's done:
     
 This will allow you to install your current directory as a package so that you can continue to work on it locally.   
 Make changes, test, etc.   
+For more on testing see: https://docs.python.org/3/library/unittest.html#test-cases    
+Can also check out pytest: https://docs.pytest.org/en/7.3.x/   
+
    
    
 
