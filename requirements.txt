@@ -1,0 +1,15 @@
+build==0.10.0
+certifi==2023.5.7
+charset-normalizer==3.1.0
+-e git+ssh://git@github.com/timrecyclist/demo.git@1b9f0c6e4e6f4078b4f5af7bb3061d0eb73ea0ac#egg=demo
+idna==3.4
+numpy==1.24.3
+packaging==23.1
+pandas==2.0.2
+pyproject_hooks==1.0.0
+python-dateutil==2.8.2
+pytz==2023.3
+requests==2.31.0
+six==1.16.0
+tzdata==2023.3
+urllib3==2.0.3
