@@ -1,6 +1,8 @@
 # demo
 
 This repo is for demonstration purposes on how to create a package in Python.    
+The video associated with it can be found in the Engineering folder on the Drive under the title "Merge Script Primer - making libraries in Python"   
+
 
 NOTE: If you have python 3 is usually run by adding a 3 to the end of python
 binaries. So you can use python3 python_file.py to run. Same for pip. Use pip3
